@@ -13,7 +13,7 @@ pipeline {
                     def map = [name: 'Gromit', likes: 'cheese', id: 1234]
                     println "Iterating over a map"
                     map.each{key, value ->
-                        println "$key: #value"
+                        println "$key: $value"
                     }
                 }
                     
